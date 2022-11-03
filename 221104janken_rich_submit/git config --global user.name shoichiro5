@@ -1,0 +1,3 @@
+git config --global user.name shoichiro516
+
+git config --global user.email s.taniguchi.gakken@gmail.com

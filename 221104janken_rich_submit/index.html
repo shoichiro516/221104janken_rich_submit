@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>じゃんけんrich</title>
+    <script src="js/text.js"></script>
+    <style>
+        #res{
+            font-size: 3rem;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+
+        <h1>ジャンケン ！</h1>
+            <p>ジャンケン、それはあなたの人生を決める三択<p>
+        <h2>さあ、あなたの運命の手を選んでください</h2>
+
+        <table>
+            <tr>
+                <td><img src="image/gu.jpeg" onclick="janken(0)"></td>
+                <td><img src="image/choki.jpeg" onclick="janken(1)"></td>
+                <td><img src="image/pa.jpeg" onclick="janken(2)"></td>
+            </tr>
+        </table>
+<hr>
+        <table>
+            <tr>
+                <th>あなたの手</th>
+                <th>コンピュータの手</th>
+            </tr>
+            <tr>
+                <td><img src="" id="userImg"></td>
+                <td><img src="" id="pcImg"></td>
+            </tr>
+            <tr>
+                <td colspan="2" id="res">
+                        <p id="result"></p>
+                </td>
+            </tr>
+        </table>
+
+
+        <audio controls autoplay src="music/キミの声をのせて.mp3"></audio>
+
+</body>
+</html>
+
